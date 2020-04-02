@@ -8,6 +8,8 @@
     "jest": "^25.2.4"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:unit": "jest --projects jest.unit.config.js",
+    "test:e2e": "jest --projects jest.e2e.config.js"
   }
 }
